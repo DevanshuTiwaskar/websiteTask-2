@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.main1 .left {
+  height: 100%;
+  width: 30%;
+}
+
+.main1 .right {
+  height: 80%;
+  width: 50%;
+  background-image: url("https://img.freepik.com/premium-photo/green-cactus-white-pot_53876-215872.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.main1 .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 20px 25px 0px 25px;
+}
+
+.overlay .nav {
+  display: flex;
+  gap: 26rem;
+}
+
+.nav .navlinks {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h3 {
+  font-size: 30px;
+  padding-left: 26px;
+}
+
+.nav .navlinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.overlay .down {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.down .downLeft {
+  width: 10%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.downLeft .leftTop {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.downLeft .leftTop p {
+  font-size: 10px;
+  transform: rotate(-90deg);
+}
+
+.downLeft .leftBottom {
+  height: 30%;
+  width: 2px;
+  background-color: rgb(206, 206, 206);
+  align-self: center;
+}
+
+.down .downMiddle {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.downMiddle .middleTop h1 {
+  font-size: 100px;
+
+  margin-bottom: 20px;
+}
+
+.downMiddle .middleTop p {
+  font-size: 15px;
+  width: 35%;
+  margin-bottom: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#btn {
+  padding: 5px 25px;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
+
+.downMiddle .middleBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downMiddle .middleBottom .icons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.middleBottom .middleRight {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middleBottom .middleRight .line {
+  height: 2px;
+  width: 80%;
+  background-color: rgb(202, 202, 202);
+}
+
+.middleBottom .middleRight p {
+  font-size: 10px;
+}
+
+.down .downRight {
+  width: 10%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.down .downRight i {
+  font-size: 30px;
+}
+
+#page2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#page2 #main2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#main2 #img {
+  width: 60%;
+  height: 100%;
+  background-image: url("/images/WhatsApp\ Image\ 2025-07-10\ at\ 15.11.09_7e6caabb.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main2 #right {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+#right #le {
+  width: 90%;
+  height: 100%;
+  padding: 50px;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+}
+#right #le h2 {
+  font-size: 40px;
+}
+#right #le p {
+  width: 60%;
+  font-size: 20px;
+}
+
+#right #le h3 {
+  text-decoration: 2px underline;
+}
+
+#right #ri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+#page3 {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page3 #left {
+  width: 30%;
+  height: 90%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 140px;
+  font-size: 25px;
+}
+#page3 #left h4 {
+  color: rgb(179, 179, 179);
+}
+
+#page3 #left p span {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+#page3 #left p {
+  color: rgb(179, 179, 179);
+}
+
+#page3 #left h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#page3 #left h5 {
+  color: rgb(179, 179, 179);
+}
+
+#page3 #left #button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#page3 #left #button h2 {
+  font-size: 20px;
+}
+
+#page3 #right {
+  width: 70%;
+  height: 90%;
+  background-image: url("/images/map.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#page4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page4 #main3 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#main3 #left {
+  width: 20%;
+  height: 100%;
+}
+
+#main3 #rigth {
+  width: 80%;
+  height: 100%;
+  background-image: url("/images/foloer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main3 #overlay2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  display: flex;
+}
+
+#main3 #overlay2 #lef {
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+#overlay2 #lef h3 {
+  text-decoration: 2px underline;
+}
+
+#overlay2 #rigt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  gap: 10px;
+}
+#main3 #overlay2 #rigt {
+  width: 15%;
+  height: 10%;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#page5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page5 #main4 {
+  width: 80%;
+  height: 60%;
+  display: flex;
+}
+
+#main4 #img {
+  width: 30%;
+  height: 100%;
+  background-image: url("/images/hand.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main4 #text1 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+}
+#main4 #text1 p {
+  width: 90%;
+}
+#main4 #text2 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 130px 100px 0 0;
+}
+
+#main4 #text2 p {
+  width: 90%;
+}
+
+
+#footer{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#footer h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#footer #left{
+  width: 30%;
+  height: 100%;
+     display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+
+}
+#footer #left #textin{
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#footer #left #submit{
+    font-size: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+
+}
+
+#footer #center{
+  width: 20%;
+  height: 100%;
+ display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+  
+}
+#footer #rigth{
+  width: 20%;
+  height: 100%;
+   display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+  
+}
+#footer #socal{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
