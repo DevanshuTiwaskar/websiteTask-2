@@ -180,7 +180,7 @@ body {
 #main2 #img {
   width: 60%;
   height: 100%;
-  background-image: url("https://static.wixstatic.com/media/245da8_b37deeaa8d034351a9baf112b59f435f~mv2.jpg/v1/crop/x_0,y_0,w_2291,h_1727/fill/w_248,h_179,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/scott-webb-oRWRlTgBrPo-unsplash_edited_e.jpg");
+  background-image: url("/images/foloer.jpg");
   background-position: center;
   background-size: cover;
 }
